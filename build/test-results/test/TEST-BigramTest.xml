@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BigramTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-29T22:16:10" hostname="LNAR-PF0U5CMJ" time="0.002">
+  <properties/>
+  <testcase name="testGetProcessedList" classname="BigramTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
