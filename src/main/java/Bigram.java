@@ -111,7 +111,7 @@ public class Bigram {
 			
 			e.printStackTrace();
 		} finally {
-			System.out.println("File is not available Error");
+			System.out.println("File is not available , Correct the Path");
 			
 		}
 
