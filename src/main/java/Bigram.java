@@ -95,7 +95,7 @@ public class Bigram {
 		List<Result> rsltlst = getResultList(input, nGramCount);		
 
 		rsltlst.forEach(result -> {
-			System.out.println(result.ngramString + " " + result.ngramCount);
+			System.out.println(result.ngramString + "  " + result.ngramCount);
 		});
 
 	}
