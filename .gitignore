@@ -1,34 +1,22 @@
-
-### Java ###
-*.class
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-
-### Gradle ###
-.gradle
 /build/
+*/build/
+/bin/
+/gradle/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Eclipse generated files.
+.settings
+.classpath
+.project
+.gradle
+# IntelliJ generated files.
+*.iml
+.idea
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# Autogenerared OS X clutter.
+.DS_Store
+._.DS_Store
+# Windows explorer is just as bad.
+Thumbs.db
 
-# Cache of project
-.gradletasknamecache
-
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# Various text editor swap files, etc.
+.*.swp

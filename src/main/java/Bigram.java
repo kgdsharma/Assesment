@@ -107,9 +107,13 @@ public class Bigram {
 		try {
 			inputData = new String(Files.readAllBytes(Paths.get(FILE_PATH)));
 
-		} catch (IOException e) {			
+		} catch (IOException e) {
+			
 			e.printStackTrace();
-		} finally {}
+		} finally {
+			System.out.println("File is not available");
+			
+		}
 
 		return inputData;
 
